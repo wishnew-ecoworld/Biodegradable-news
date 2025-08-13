@@ -1,54 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Biodegradable Granules News Dashboard</title>
-<style>
-  body { font-family: Arial, sans-serif; background: #f5f7f9; margin: 0; padding: 0; }
-  header { background: #2c7a7b; color: white; padding: 15px; text-align: center; }
-  h1 { margin: 0; font-size: 1.5em; }
-  .container { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 15px; padding: 20px; }
-  iframe { width: 100%; height: 600px; border: none; background: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 8px; }
-  .source-title { text-align: center; background: #edf2f7; padding: 8px; font-weight: bold; }
-  .source-box { border-radius: 8px; overflow: hidden; }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodegradable News</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f8f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #2e7d32;
+            color: white;
+            padding: 20px 0;
+        }
+        h1 {
+            margin: 0;
+        }
+        .links {
+            margin: 40px auto;
+            max-width: 500px;
+        }
+        a {
+            display: block;
+            background: #4caf50;
+            color: white;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: background 0.3s;
+        }
+        a:hover {
+            background: #388e3c;
+        }
+        footer {
+            background: #eee;
+            padding: 15px;
+            font-size: 14px;
+            color: #555;
+            margin-top: 40px;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>Biodegradable Granules & Bioplastics News Portal</h1>
-  </header>
 
-  <div class="container">
-    <div class="source-box">
-      <div class="source-title">Renewable Carbon News</div>
-      <iframe src="https://renewable-carbon.eu/news/"></iframe>
+    <header>
+        <h1>Biodegradable Product News</h1>
+        <p>Latest updates and resources in the eco-friendly industry</p>
+    </header>
+
+    <div class="links">
+        <a href="https://www.ecowatch.com" target="_blank">🌱 EcoWatch - Green News</a>
+        <a href="https://www.theguardian.com/environment" target="_blank">🌍 The Guardian - Environment</a>
+        <a href="https://www.packaging-gateway.com" target="_blank">📦 Packaging News</a>
+        <a href="https://bioplasticsnews.com" target="_blank">♻️ Bioplastics News</a>
     </div>
 
-    <div class="source-box">
-      <div class="source-title">European Bioplastics</div>
-      <iframe src="https://www.european-bioplastics.org/news/"></iframe>
-    </div>
+    <footer>
+        © 2025 Wishnew Ecoworld. All rights reserved.
+    </footer>
 
-    <div class="source-box">
-      <div class="source-title">Bioplastics News</div>
-      <iframe src="https://bioplasticsnews.com/"></iframe>
-    </div>
-
-    <div class="source-box">
-      <div class="source-title">Plastics Today - Sustainable Plastics</div>
-      <iframe src="https://www.plasticstoday.com/sustainable-plastics"></iframe>
-    </div>
-
-    <div class="source-box">
-      <div class="source-title">Phys.org - Biodegradable Materials</div>
-      <iframe src="https://phys.org/tags/biodegradable/"></iframe>
-    </div>
-
-    <div class="source-box">
-      <div class="source-title">Packaging 360 (India)</div>
-      <iframe src="https://packaging360.in/"></iframe>
-    </div>
-  </div>
 </body>
 </html>
